@@ -48,6 +48,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'api-vaga-rm561432'
-          slot-name: 'Production'
           package: '*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8633CB50B70841A7A135B4D9DB10EA23 }}
